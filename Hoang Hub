@@ -95,5 +95,3 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ----- Paragraph 
                     
    Paragraph = AddParagraph(Farm, {"a", ""})
-   
-   
