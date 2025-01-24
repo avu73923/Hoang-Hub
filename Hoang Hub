@@ -34,7 +34,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Scripts cần key"})
      local Tab3o = MakeTab({Name = "Script tự tạo"})
      
-     
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
