@@ -30,8 +30,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script cần key"})
-     local Tab2o = MakeTab({Name = "Scripts"})
+     local Tab1o = MakeTab({Name = "Scripts"})
+     local Tab2o = MakeTab({Name = "Scripts cần key"})
      local Tab3o = MakeTab({Name = "Script tự tạo"})
      
      
@@ -58,22 +58,22 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
   end
   })   AddButton(Tab1o, {
-     Name = "2",
+     Name = "Redz Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "3",
+     Name = "Andepzai",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "4",
+     Name = "Cokka Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
-  })   AddButton(Tab1o, {
-     Name = "FIX LAG",
+  })   AddButton(Tab2o, {
+     Name = "Hoho Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
